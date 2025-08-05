@@ -16,4 +16,4 @@ services:
       - key: API_TOKEN_SALT
         sync: false
       - key: APP_KEYS
-        sync: false 
+        sync: false
