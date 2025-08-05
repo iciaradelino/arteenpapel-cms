@@ -2,7 +2,6 @@ services:
   - type: web
     name: arteenpapel-cms
     env: node
-    rootDir: src
     buildCommand: npm install
     startCommand: npm start
     envVars:
