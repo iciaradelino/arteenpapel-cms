@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cuadros",
+  "info": {
+    "singularName": "cuadro",
+    "pluralName": "cuadros",
+    "displayName": "Cuadro"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Imagen": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "Estado": {
+      "type": "enumeration",
+      "enum": [
+        "Vendido",
+        "Disponible"
+      ]
+    },
+    "Identificador": {
+      "type": "uid"
+    }
+  }
+}
